@@ -29,8 +29,9 @@ return require('packer').startup(function(use)
   use 'mbbill/undotree'
   use 'eandrju/cellular-automaton.nvim'
   use 'nvim-tree/nvim-tree.lua'
-  use 'rktjmp/lush.nvim'
-  use 'rktjmp/shipwright.nvim'
   use 'bezgandonov/my_colors.nvim'
   use 'tpope/vim-fugitive'
+
+  use 'rktjmp/lush.nvim'
+  use 'rktjmp/shipwright.nvim'
 end)
