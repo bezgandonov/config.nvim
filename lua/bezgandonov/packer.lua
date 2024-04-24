@@ -8,6 +8,7 @@ return require('packer').startup(function(use)
     -- or                            , branch = '0.1.x',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+
   use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x',
@@ -24,6 +25,7 @@ return require('packer').startup(function(use)
       {'L3MON4D3/LuaSnip'},
     }
   }
+
   use 'nvim-lua/plenary.nvim'
   use 'ThePrimeagen/harpoon'
   use 'mbbill/undotree'
